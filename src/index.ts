@@ -1,4 +1,4 @@
-import {PathFinder} from "./script.js";
+import {PathFinder} from "./path-finder.js";
 
 // Test case
 // >---A-@-+
