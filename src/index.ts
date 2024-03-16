@@ -14,7 +14,7 @@ import {PathFinder} from "./path-finder.js";
 //     |   |
 //     +---+
 
-let input1: string[][] = [
+let example: string[][] = [
     ['>', '-', '-', '-', 'A', '-', '-', '-', '+'],
     ['', '', '', '', '', '', '', '', '|'],
     ['s', '-', 'B', '-', '+', '', '', '', 'C'],
@@ -22,7 +22,7 @@ let input1: string[][] = [
     ['', '', '', '', '+', '-', '-', '-', '+']
 ];
 
-let input2: string[][] = [
+let assignment: string[][] = [
     ['>', '-', '-', '-', 'A', '-', '@', '-', '+'],
     ['', '', '', '', '', '', '', '', '|'],
     ['+', '-', 'U', '-', '+', '', '', '', 'C'],
@@ -30,7 +30,7 @@ let input2: string[][] = [
     ['s', '', '', '', 'C', '-', '-', '-', '+']
 ];
 
-let test = new PathFinder(input1);
+let test = new PathFinder(assignment);
 const {path, letters} = test.find();
 
 console.log('path:', path);
