@@ -54,4 +54,4 @@ This will execute the compiled JavaScript code in the `dist/index.js` file.
 
 ## Source Code
 
-The source code for this project is located in the `src` directory. Feel free to explore and modify it to suit your needs.
+The source code for this project is located in the `src` directory.
